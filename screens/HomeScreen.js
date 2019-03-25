@@ -98,7 +98,7 @@ class TotalPrazo extends React.Component {
       <View>
         <TouchableOpacity onPress={this._onPressButton}>
           <Card style={styles.containerStyle}>
-            <TotalGeralScreen />
+            <TotalPrazoScreen />
           </Card>
         </TouchableOpacity>
       </View>
@@ -129,7 +129,7 @@ const renderizarTela = () => {
         <TotalDinheiro />,
         <TotalCartao />,
         <TotalPrazo />,
-        <TotalGeralScreen />,
+        <TotalGeral />,
       ]}
     </View>
   );

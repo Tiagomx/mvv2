@@ -82,6 +82,6 @@ const styles = StyleSheet.create({
   cell: {
     fontSize: 15,
     color: 'steelblue',
-    paddingLeft: 55,
+    paddingLeft: 25,
   },
 });

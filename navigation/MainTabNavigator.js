@@ -105,29 +105,11 @@ const ConteinerTabs = createAppContainer(RotasTabMenu);
 export default createAppContainer(
   createBottomTabNavigator(
     {
-      Home: { screen: TelaIncialScreen },
-      DinheiroStack,
-      CartaoStack,
-      PrazoStack,
-      SettingsStack,
-    },
-    {
-      defaultNavigationOptions: ({ navigation }) => ({
-        tabBarIcon: ({ focused, tintColor }) => {
-          const { routeName } = navigation.state;
-          let iconName;
-          if (routeName === 'Home') {
-            iconName = `ios-information-circle${focused ? '' : '-outline'}`;
-          } else if (routeName === 'Settings') {
-            iconName = `ios-options${focused ? '' : '-outline'}`;
-          }
-          return <Ionicons name={iconName} size={25} color={tintColor} />;
-        },
-      }),
-      tabBarOptions: {
-        activeTintColor: 'tomato',
-        inactiveTintColor: 'gray',
-      },
+      TelaInicial: { screen: TelaIncialScreen },
+      DinheiroStack: { screen: DinheiroStack },
+      CartaoStack: { screen: CartaoStack },
+      PrazoStack: { screen: PrazoStack },
+      SettingsStack: { screen: SettingsStack },
     }
   )
 );
