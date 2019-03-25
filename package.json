@@ -1,0 +1,18 @@
+{
+  "name": "github.com/tiagomx/monitor-de-vendads",
+  "version": "0.0.0",
+  "description": "Tiagomx/Monitor-de-vendads @ Feb 13, 2019",
+  "author": null,
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "dependencies": {
+    "expo": "^32.0.0",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "@expo/samples": "2.1.1",
+    "react-native-elements": "^1.0.0",
+    "react-native-svg-charts": "5.2.0",
+    "react-navigation": "3.3.2",
+    "react-test-renderer": "16.8.4"
+  }
+}
