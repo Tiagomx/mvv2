@@ -105,11 +105,11 @@ const ConteinerTabs = createAppContainer(RotasTabMenu);
 export default createAppContainer(
   createBottomTabNavigator(
     {
-      TelaInicial: { screen: TelaIncialScreen },
-      DinheiroStack: { screen: DinheiroStack },
-      CartaoStack: { screen: CartaoStack },
-      PrazoStack: { screen: PrazoStack },
-      SettingsStack: { screen: SettingsStack },
+      Home: { screen: TelaIncialScreen },
+      DinheiroStack,
+      CartaoStack,
+      PrazoStack,
+      SettingsStack,
     }
   )
 );

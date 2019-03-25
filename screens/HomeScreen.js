@@ -129,7 +129,7 @@ const renderizarTela = () => {
         <TotalDinheiro />,
         <TotalCartao />,
         <TotalPrazo />,
-        <TotalGeral />,
+        <TotalGeral/>,
       ]}
     </View>
   );
